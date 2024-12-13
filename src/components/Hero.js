@@ -34,9 +34,9 @@ const Hero = () => {
           <p>
             <strong>Resume:</strong>{" "}
             <a
-              href="https://www.scribd.com/document/804432785/S-J-CV-Resume"
+              href="https://www.scribd.com/document/804443953/S-J-CV-Resume"
               target="_blank"
-              rel="noreferrer" 
+              rel="noreferrer"
               className="hero-button"
             >
               Resume
