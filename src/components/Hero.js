@@ -32,7 +32,10 @@ const Hero = () => {
             <strong>LinkedIn:</strong> None
           </p>
           <p>
-            <strong>Resume:</strong> <a href="#">Placeholder for Resume Link</a>
+            <strong>Resume:</strong>{" "}
+            <a href="https://www.scribd.com/document/804432785/S-J-CV-Resume" target="_blank">
+             Resume
+            </a>
           </p>
         </div>
       </div>
