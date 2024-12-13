@@ -33,8 +33,13 @@ const Hero = () => {
           </p>
           <p>
             <strong>Resume:</strong>{" "}
-            <a href="https://www.scribd.com/document/804432785/S-J-CV-Resume" target="_blank">
-             Resume
+            <a
+              href="https://www.scribd.com/document/804432785/S-J-CV-Resume"
+              target="_blank"
+              rel="noreferrer" 
+              className="hero-button"
+            >
+              Resume
             </a>
           </p>
         </div>
