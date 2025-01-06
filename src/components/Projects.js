@@ -12,7 +12,8 @@ const Projects = () => {
   return (
     <div id="projects" className="projects-container">
       <h1>My Projects</h1>
-      <p>A collection of projects I've worked on recently.</p>
+      <p>A Collection Of Completed Projects I've Worked On Recently.</p>
+      <br/>
 
       <div className="projects-list">
         <ProjectCard
