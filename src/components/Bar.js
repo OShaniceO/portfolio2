@@ -17,13 +17,37 @@ const Bar = () => {
         </div>
         <ul className="nav-links">
           <li>
-            <a onClick={() => scrollToSection("assignments")}>Assignments</a>
+            <a
+              href="#assignments"
+              onClick={(e) => {
+                e.preventDefault();
+                scrollToSection("assignments");
+              }}
+            >
+              Assignments
+            </a>
           </li>
           <li>
-            <a onClick={() => scrollToSection("projects")}>Projects</a>
+            <a
+              href="#projects"
+              onClick={(e) => {
+                e.preventDefault();
+                scrollToSection("projects");
+              }}
+            >
+              Projects
+            </a>
           </li>
           <li>
-            <a onClick={() => scrollToSection("commissions")}>Commission</a>
+            <a
+              href="#commissions"
+              onClick={(e) => {
+                e.preventDefault();
+                scrollToSection("commissions");
+              }}
+            >
+              Commission
+            </a>
           </li>
         </ul>
       </div>
