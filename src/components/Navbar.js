@@ -1,46 +1,16 @@
 import React from "react";
-import Hero from "./components/Hero"; 
-import Projects from "./components/Projects"; 
-import "./style.css"; 
+import Hero from "./components/Hero";
+import Projects from "./components/Projects";
+import "./style.css";
+import Navbar from "./components/Navbar";
 
 const App = () => {
   return (
     <div className="app-container">
-      {}
-      <nav className="navbar navbar-expand-lg navbar-light bg-light fixed-top">
-        <div className="container">
-          <a className="navbar-brand" href="/">
-            Shanice Jones
-          </a>
-          <button
-            className="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarNav"
-          >
-            <span className="navbar-toggler-icon"></span>
-          </button>
-          <div className="collapse navbar-collapse" id="navbarNav">
-            <ul className="navbar-nav ms-auto">
-              <li className="nav-item">
-                <a className="nav-link" href="/">
-                  Home
-                </a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link" href="#projects">
-                  My Projects
-                </a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
+      <Navbar />
 
-      {}
       <Hero />
 
-      {}
       <div className="contact-section">
         <h1>Contact Me</h1>
         <p>
@@ -60,10 +30,8 @@ const App = () => {
         </div>
       </div>
 
-      {}                         
       <Projects />
 
-      {}
       <footer className="app-footer">
         <p>
           Coded by <strong>Shanice Jones</strong> | Hosted on
