@@ -5,8 +5,8 @@ import Hero from "./components/Hero";
 import Projects from "./components/Projects";
 import Assignments from "./components/Assignments";
 import Commissions from "./components/Commissions";
-import Bar from "./components/Bar";
-import "./App.css"; 
+
+import "./App.css";
 
 const App = () => {
   return (
